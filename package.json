@@ -1,0 +1,31 @@
+{
+  "name": "toy-react",
+  "version": "0.1.0",
+  "description": "A simple React app base built with Parcel.  Intended for use with toy projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "test"
+  },
+  "keywords": [
+    "React",
+    "Parcel"
+  ],
+  "author": "haworku",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "1.17.0"
+  }
+}
