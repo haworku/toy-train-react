@@ -19,10 +19,19 @@ const style = {
 };
 
 class App extends Component {
+  componentDidMount() {
+    console.log('Here!');
+  }
+
   render() {
     return (
       <div style={style.container}>
-        <header style={style.header}>Made a Thing!</header>
+        <header style={style.header}>
+          toy train react
+          <span aria-label="train-emoji" role="img">
+            🚂
+          </span>
+        </header>
         <main style={style.main} />
       </div>
     );

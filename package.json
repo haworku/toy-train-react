@@ -1,10 +1,12 @@
 {
-  "name": "toy-react",
+  "name": "toy-train-react",
   "version": "0.1.0",
   "description": "A simple React app base built with Parcel.  Intended for use with toy projects.",
   "main": "index.js",
   "scripts": {
     "build": "parcel build index.html",
+    "lint": "prettier --check src/** && eslint --fix src/**",
+    "lint-check": "eslint --print-config src/**/*.js | eslint-config-prettier-check",
     "start": "parcel index.html",
     "test": "test"
   },
@@ -24,7 +26,15 @@
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
     "parcel-bundler": "^1.12.3",
     "prettier": "1.17.0"
   }
