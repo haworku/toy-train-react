@@ -17,6 +17,7 @@
   "author": "haworku",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
@@ -27,7 +28,6 @@
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "babel-preset-env": "^1.7.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
