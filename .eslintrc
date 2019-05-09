@@ -3,12 +3,11 @@
     "browser": true,
     "es6": true
   },
-  "plugins": ["react"],
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
-    "plugin:react/recommended",
-    "prettier/react"
+    "prettier/react",
+    "prettier/standard"
   ],
   "globals": {
     "window": true,
