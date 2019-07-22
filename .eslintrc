@@ -33,7 +33,9 @@
         "extensions": [".js", ".jsx"]
       }
     ],
+    "react/destructuring-assignment": false,
     "react/prop-types": 0,
+    "react/prefer-stateless-function": false,
     "no-underscore-dangle": 0,
     "import/imports-first": ["error", "absolute-first"],
     "import/newline-after-import": "error"

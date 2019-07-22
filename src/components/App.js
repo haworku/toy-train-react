@@ -7,30 +7,32 @@ const style = {
     flexDirection: 'column',
   },
   header: {
-    borderBottom: 'double',
-    height: '2rem',
-    lineHeight: '2rem',
-    textAlign: 'center',
+    borderBottom: '1px solid grey',
+    height: '100%',
   },
   main: {
     display: 'flex',
-    flex: 1,
+    flexDirection: 'column',
   },
 };
 
 class App extends Component {
-  componentDidMount() {
-    console.log('Here!');
-  }
-
   render() {
     return (
       <div style={style.container}>
         <header style={style.header}>
-          toy train react
-          <span aria-label="train-emoji" role="img">
-            🚂
-          </span>
+          <h1>
+            <span aria-label="train-emoji" role="img">
+              🚂
+            </span>
+            <span aria-label="train-emoji" role="img">
+              🚂
+            </span>
+            <span aria-label="train-emoji" role="img">
+              🚂
+            </span>
+            <span>toy train react</span>
+          </h1>
         </header>
         <main style={style.main} />
       </div>
