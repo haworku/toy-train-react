@@ -2,7 +2,7 @@
   "name": "toy-train-react",
   "version": "0.1.0",
   "description": "A simple React app base built with Parcel.  Intended for use with toy projects.",
-  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "build": "parcel build index.html",
     "lint": "prettier --check src/** && eslint --fix src/**",
@@ -29,15 +29,13 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "7.4.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.25.2",
+  
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
     "babel-eslint": "^10.0.2",
-    "babel-jest": "^24.8.0",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
+    "babel-jest": "^29.7.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
@@ -45,9 +43,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
-    "jest": "^24.8.0",
-    "jest-cli": "^24.8.0",
-    "parcel-bundler": "^1.12.3",
-    "prettier": "1.17.0"
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.3"
   }
 }
